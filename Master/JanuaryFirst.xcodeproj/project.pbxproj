@@ -88,17 +88,17 @@
 		DA458F401E960F2600CB13C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA458F411E96129300CB13C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA4659B61E4A01D300859CBD /* FirstGoalSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstGoalSettingViewController.swift; sourceTree = "<group>"; };
-		DA9B2B811E37369200981ED0 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9B2B811E37369200981ED0 /* JanuaryFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JanuaryFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9B2B841E37369200981ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA9B2B861E37369200981ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA9B2B8C1E37369200981ED0 /* test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test.xcdatamodel; sourceTree = "<group>"; };
 		DA9B2B8E1E37369200981ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA9B2B911E37369200981ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA9B2B931E37369200981ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA9B2B981E37369200981ED0 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9B2B981E37369200981ED0 /* JanuaryFirstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JanuaryFirstTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9B2B9C1E37369200981ED0 /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
 		DA9B2B9E1E37369200981ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA9B2BA31E37369200981ED0 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9B2BA31E37369200981ED0 /* JanuaryFirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JanuaryFirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9B2BA71E37369200981ED0 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		DA9B2BA91E37369200981ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAB7537E1E5EFC91007885C8 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "Pods/../build/Debug-iphoneos/Charts/Charts.framework"; sourceTree = "<group>"; };
@@ -195,9 +195,9 @@
 		DA9B2B821E37369200981ED0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA9B2B811E37369200981ED0 /* test.app */,
-				DA9B2B981E37369200981ED0 /* testTests.xctest */,
-				DA9B2BA31E37369200981ED0 /* testUITests.xctest */,
+				DA9B2B811E37369200981ED0 /* JanuaryFirst.app */,
+				DA9B2B981E37369200981ED0 /* JanuaryFirstTests.xctest */,
+				DA9B2BA31E37369200981ED0 /* JanuaryFirstUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,9 +251,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA9B2B801E37369200981ED0 /* test */ = {
+		DA9B2B801E37369200981ED0 /* JanuaryFirst */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA9B2BAC1E37369200981ED0 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = DA9B2BAC1E37369200981ED0 /* Build configuration list for PBXNativeTarget "JanuaryFirst" */;
 			buildPhases = (
 				8A0C9EBD036BFE7A19AC253A /* [CP] Check Pods Manifest.lock */,
 				DA9B2B7D1E37369200981ED0 /* Sources */,
@@ -266,14 +266,14 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = JanuaryFirst;
 			productName = test;
-			productReference = DA9B2B811E37369200981ED0 /* test.app */;
+			productReference = DA9B2B811E37369200981ED0 /* JanuaryFirst.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DA9B2B971E37369200981ED0 /* testTests */ = {
+		DA9B2B971E37369200981ED0 /* JanuaryFirstTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA9B2BAF1E37369200981ED0 /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildConfigurationList = DA9B2BAF1E37369200981ED0 /* Build configuration list for PBXNativeTarget "JanuaryFirstTests" */;
 			buildPhases = (
 				DA9B2B941E37369200981ED0 /* Sources */,
 				DA9B2B951E37369200981ED0 /* Frameworks */,
@@ -284,14 +284,14 @@
 			dependencies = (
 				DA9B2B9A1E37369200981ED0 /* PBXTargetDependency */,
 			);
-			name = testTests;
+			name = JanuaryFirstTests;
 			productName = testTests;
-			productReference = DA9B2B981E37369200981ED0 /* testTests.xctest */;
+			productReference = DA9B2B981E37369200981ED0 /* JanuaryFirstTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DA9B2BA21E37369200981ED0 /* testUITests */ = {
+		DA9B2BA21E37369200981ED0 /* JanuaryFirstUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA9B2BB21E37369200981ED0 /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildConfigurationList = DA9B2BB21E37369200981ED0 /* Build configuration list for PBXNativeTarget "JanuaryFirstUITests" */;
 			buildPhases = (
 				DA9B2B9F1E37369200981ED0 /* Sources */,
 				DA9B2BA01E37369200981ED0 /* Frameworks */,
@@ -302,9 +302,9 @@
 			dependencies = (
 				DA9B2BA51E37369200981ED0 /* PBXTargetDependency */,
 			);
-			name = testUITests;
+			name = JanuaryFirstUITests;
 			productName = testUITests;
-			productReference = DA9B2BA31E37369200981ED0 /* testUITests.xctest */;
+			productReference = DA9B2BA31E37369200981ED0 /* JanuaryFirstUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -341,7 +341,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA9B2B7C1E37369200981ED0 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = DA9B2B7C1E37369200981ED0 /* Build configuration list for PBXProject "JanuaryFirst" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -356,9 +356,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA9B2B801E37369200981ED0 /* test */,
-				DA9B2B971E37369200981ED0 /* testTests */,
-				DA9B2BA21E37369200981ED0 /* testUITests */,
+				DA9B2B801E37369200981ED0 /* JanuaryFirst */,
+				DA9B2B971E37369200981ED0 /* JanuaryFirstTests */,
+				DA9B2BA21E37369200981ED0 /* JanuaryFirstUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -484,12 +484,12 @@
 /* Begin PBXTargetDependency section */
 		DA9B2B9A1E37369200981ED0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA9B2B801E37369200981ED0 /* test */;
+			target = DA9B2B801E37369200981ED0 /* JanuaryFirst */;
 			targetProxy = DA9B2B991E37369200981ED0 /* PBXContainerItemProxy */;
 		};
 		DA9B2BA51E37369200981ED0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA9B2B801E37369200981ED0 /* test */;
+			target = DA9B2B801E37369200981ED0 /* JanuaryFirst */;
 			targetProxy = DA9B2BA41E37369200981ED0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -704,7 +704,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = practice1.testTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JanuaryFirst.app/JanuaryFirst";
 			};
 			name = Debug;
 		};
@@ -719,7 +719,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = practice1.testTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JanuaryFirst.app/JanuaryFirst";
 			};
 			name = Release;
 		};
@@ -754,7 +754,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA9B2B7C1E37369200981ED0 /* Build configuration list for PBXProject "test" */ = {
+		DA9B2B7C1E37369200981ED0 /* Build configuration list for PBXProject "JanuaryFirst" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA9B2BAA1E37369200981ED0 /* Debug */,
@@ -763,7 +763,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA9B2BAC1E37369200981ED0 /* Build configuration list for PBXNativeTarget "test" */ = {
+		DA9B2BAC1E37369200981ED0 /* Build configuration list for PBXNativeTarget "JanuaryFirst" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA9B2BAD1E37369200981ED0 /* Debug */,
@@ -772,7 +772,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA9B2BAF1E37369200981ED0 /* Build configuration list for PBXNativeTarget "testTests" */ = {
+		DA9B2BAF1E37369200981ED0 /* Build configuration list for PBXNativeTarget "JanuaryFirstTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA9B2BB01E37369200981ED0 /* Debug */,
@@ -781,7 +781,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA9B2BB21E37369200981ED0 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+		DA9B2BB21E37369200981ED0 /* Build configuration list for PBXNativeTarget "JanuaryFirstUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA9B2BB31E37369200981ED0 /* Debug */,

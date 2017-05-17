@@ -26,5 +26,6 @@
 // modalView
 "modalPlaceHolder"      = "Add a comment...";
 "error"                 = "Error";
-"error_incorrect_data"  = "";
+"error_incorrect_data"  = "There is invalid value in input window. There should be integer between 0 to 100 in Rate input window.";
+
 
