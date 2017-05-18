@@ -46,17 +46,6 @@ class ViewController: UIViewController {
                 self.present(gvc, animated: false)
             }
         }
-        self.view.backgroundColor = Color.backGroundColor
-        month.textColor = Color.deepFontColor
-        year.textColor = Color.deepFontColor
-        showToday.tintColor = Color.deepFontColor
-        sunday.textColor = Color.dimFontColor
-        monday.textColor = Color.dimFontColor
-        tuesday.textColor = Color.dimFontColor
-        wednesday.textColor = Color.dimFontColor
-        thursday.textColor = Color.dimFontColor
-        friday.textColor = Color.dimFontColor
-        saturday.textColor = Color.dimFontColor
         calendarView.backgroundColor = UIColor.clear
         calendar.timeZone = TimeZone.current
         calendarView.dataSource = self
@@ -78,6 +67,22 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
         flagForScroll = scrollOnce(flag: flagForScroll)
         calendarView.reloadData()
+        
+        let tbController = self.storyboard?.instantiateViewController(withIdentifier: "root") as! UITabBarController
+        tbController.tabBar.tintColor = Color.deepLineColor
+        tbController.tabBar.barTintColor = Color.backGroundColor
+
+        self.view.backgroundColor = Color.backGroundColor
+        month.textColor = Color.deepFontColor
+        year.textColor = Color.deepFontColor
+        showToday.tintColor = Color.deepFontColor
+        sunday.textColor = Color.dimFontColor
+        monday.textColor = Color.dimFontColor
+        tuesday.textColor = Color.dimFontColor
+        wednesday.textColor = Color.dimFontColor
+        thursday.textColor = Color.dimFontColor
+        friday.textColor = Color.dimFontColor
+        saturday.textColor = Color.dimFontColor
 
     }
     func scrollOnce(flag : Int) -> Int{

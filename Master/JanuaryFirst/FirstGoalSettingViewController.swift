@@ -200,6 +200,7 @@ class FirstGoalSettingViewController: UIViewController, UITextFieldDelegate {
         goal1Setting.backgroundColor = UIColor.clear
         goal1Setting.layer.borderWidth = 0.8
         goal1Setting.layer.cornerRadius = 0
+        goal1Setting.tintColor = Color.deepFontColor
         goal1Setting.textColor = Color.deepFontColor
         goal1Setting.attributedPlaceholder = NSAttributedString(string: NSLocalizedString("firstGoalPlaceHolder", comment: "Firstgoalholder"), attributes: [NSForegroundColorAttributeName: Color.dimFontColor.withAlphaComponent(0.5)])
         
@@ -207,14 +208,16 @@ class FirstGoalSettingViewController: UIViewController, UITextFieldDelegate {
         goal2Setting.backgroundColor = UIColor.clear
         goal2Setting.layer.borderWidth = 0.8
         goal2Setting.layer.cornerRadius = 0
-        goal2Setting.textColor = white
+        goal2Setting.tintColor = Color.deepFontColor
+        goal2Setting.textColor = Color.deepFontColor
         goal2Setting.attributedPlaceholder = NSAttributedString(string: NSLocalizedString("secondGoalPlaceHolder", comment: "Secondgoalholder"), attributes: [NSForegroundColorAttributeName: Color.dimFontColor.withAlphaComponent(0.5)])
         
         goal3Setting.layer.borderColor = Color.dimLineColor.cgColor
         goal3Setting.backgroundColor = UIColor.clear
         goal3Setting.layer.borderWidth = 0.8
         goal3Setting.layer.cornerRadius = 0
-        goal3Setting.textColor = white
+        goal3Setting.tintColor = Color.deepFontColor
+        goal3Setting.textColor = Color.deepFontColor
         goal3Setting.attributedPlaceholder = NSAttributedString(string: NSLocalizedString("thirdGoalPlaceHolder", comment: "Thirdgoalholder"), attributes: [NSForegroundColorAttributeName: Color.dimFontColor.withAlphaComponent(0.5)])
         
         // TextField 커서 컬러 바꿈.
@@ -295,11 +298,13 @@ class FirstGoalSettingViewController: UIViewController, UITextFieldDelegate {
             
         }
         else if ((goal1Setting.text == "" && selectGoal1Colour != Color.backGroundColor) || (goal2Setting.text == "" && selectGoal2Colour != Color.backGroundColor) || (goal3Setting.text == "" && selectGoal3Colour != Color.backGroundColor)) {
-            let emptyGoal = UIAlertController(title: NSLocalizedString("error", comment: "error"), message: "목표 설정이 비어있습니다.", preferredStyle: UIAlertControllerStyle.alert)
+            let emptyGoal = UIAlertController(title: NSLocalizedString("error", comment: "error"), message: NSLocalizedString("empty_goal", comment: "empty_goal"), preferredStyle: UIAlertControllerStyle.alert)
             let okAction = UIAlertAction(title: NSLocalizedString("OK", comment: "OK"), style: UIAlertActionStyle.default, handler: {(ACTION) in return})
             emptyGoal.addAction(okAction)
             self.present(emptyGoal, animated: true, completion: nil)
         }
+            
+            
         else {
 
         

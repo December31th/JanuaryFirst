@@ -212,6 +212,30 @@ class ColorSetting { // 색 설정
         goalColor4 = blue
         goalColor5 = purple
     }
+    func setBlack() {
+        backGroundColor = darkBlack
+        deepFontColor = white
+        dimFontColor = lightGray
+        deepLineColor = white
+        dimLineColor = lightGray
+        goalColor1 = red
+        goalColor2 = yellow
+        goalColor3 = green
+        goalColor4 = blue
+        goalColor5 = purple
+    }
+    func setWhite() {
+        backGroundColor = white
+        deepFontColor = black
+        dimFontColor = lightGray
+        deepLineColor = black
+        dimLineColor = lightGray
+        goalColor1 = red
+        goalColor2 = yellow
+        goalColor3 = green
+        goalColor4 = blue
+        goalColor5 = purple
+    }
 }
 
 // color 

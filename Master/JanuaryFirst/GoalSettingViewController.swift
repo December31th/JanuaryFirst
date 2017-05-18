@@ -406,7 +406,7 @@ class GoalSettingViewController: UIViewController, UITextFieldDelegate {
             notificationLabelConfiguration.backgroundColor = UIColor.white
             notificationLabelConfiguration.textColor = UIColor.red
             notificationLabelConfiguration.multiline = true
-            let nibContents = Bundle.main.loadNibNamed("NotiView2", owner: nil, options: nil)
+            let nibContents = Bundle.main.loadNibNamed("NotiView", owner: nil, options: nil)
             let view2 = nibContents?.first as! UIView
             StatusBarNotificationCenter.showStatusBarNotificationWithView(view2, forDuration: 1.5, withNotificationCenterConfiguration: notificationCenterConfiguration)
 
