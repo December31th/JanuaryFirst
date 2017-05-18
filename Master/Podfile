@@ -1,7 +1,8 @@
-target 'test' do
+target ‘JanuaryFirst’ do
   use_frameworks!
   pod 'JTAppleCalendar', '~> 6.0'
   pod 'AKPickerView-Swift'
   pod 'StatusBarNotificationCenter'
   pod 'Charts'
+  pod 'CircularSlider'
 end

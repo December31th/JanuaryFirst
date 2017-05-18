@@ -14,12 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CircularSlider.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JTAppleCalendar.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-test.xcscheme</key>
+		<key>Pods-JanuaryFirst.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,22 +37,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>068E9C016BF4DE49E1A16920DDB1F1E3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>4D5B8B1BE64F80268007C79821DDDC20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C5707D8BD58663672CB9C233452B0084</key>
+		<key>796F0B78A37F1DC9E6C65B6A9BEB4011</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF09DB055935BD941846539935605A14</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>CBE2FC3D9C7576EFC5658710A956091D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E520BA055EC9E0E149871105C485BBC0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

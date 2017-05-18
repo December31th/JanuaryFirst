@@ -1,23 +1,26 @@
 PODS:
   - AKPickerView-Swift (1.0.1)
-  - Charts (3.0.1):
-    - Charts/Core (= 3.0.1)
-  - Charts/Core (3.0.1)
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+  - CircularSlider (1.1.2)
   - JTAppleCalendar (6.1.6)
   - StatusBarNotificationCenter (1.1.4)
 
 DEPENDENCIES:
   - AKPickerView-Swift
   - Charts
+  - CircularSlider
   - JTAppleCalendar (~> 6.0)
   - StatusBarNotificationCenter
 
 SPEC CHECKSUMS:
   AKPickerView-Swift: 8509d472bb257649383c276506334a7373d3cb33
-  Charts: 0e84f4418e87dad6a9edde221fba37ebb51d3ba7
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  CircularSlider: 448f9f7723b845ccd470dac41981feb192e20c50
   JTAppleCalendar: 560fb46421880f53ad54123295072de24bca2b18
   StatusBarNotificationCenter: cbf1b26836233faa978f5d748cbf3b6d66dd3f86
 
-PODFILE CHECKSUM: 2f64d29a7a2af858ca4b5956592c11a2a44932a9
+PODFILE CHECKSUM: 89de3782a0321bd6c2882836b3969b22d74d3634
 
 COCOAPODS: 1.2.0

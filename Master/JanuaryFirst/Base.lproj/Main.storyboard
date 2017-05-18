@@ -21,15 +21,15 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ta6-dH-WZd" customClass="JTAppleCalendarView" customModule="JTAppleCalendar">
-                                <rect key="frame" x="19" y="265" width="338" height="327"/>
+                                <rect key="frame" x="19" y="252.5" width="338" height="303"/>
                                 <color key="backgroundColor" red="0.15294117647058825" green="0.15686274509803921" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xdj-X9-AI0">
-                                <rect key="frame" x="311" y="558" width="36" height="29"/>
+                                <rect key="frame" x="311" y="521.5" width="36" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="oGm-p6-zfK"/>
                                     <constraint firstAttribute="width" constant="36" id="rYz-ER-TWD"/>
@@ -48,7 +48,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4mU-FR-QZ1">
-                                <rect key="frame" x="19" y="219" width="338" height="16"/>
+                                <rect key="frame" x="19" y="206.5" width="338" height="16"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlw-OE-77u">
                                         <rect key="frame" x="0.0" y="0.0" width="48.5" height="16"/>
@@ -116,7 +116,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aP7-vs-MDw">
-                                <rect key="frame" x="29" y="136.5" width="140" height="27.5"/>
+                                <rect key="frame" x="29" y="124" width="140" height="27.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="140" id="YSy-Yc-7Ii"/>
                                 </constraints>
@@ -132,7 +132,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmz-jp-C9c">
-                                <rect key="frame" x="29" y="88" width="140" height="35.5"/>
+                                <rect key="frame" x="29" y="75.5" width="140" height="35.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Label">
                                         <attributes>
@@ -910,6 +910,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="s1x-VA-GA7"/>
                         <segue destination="iby-1l-Zgs" kind="relationship" relationship="viewControllers" id="wCc-dM-fBp"/>
                         <segue destination="Mhq-it-dea" kind="relationship" relationship="viewControllers" id="R8T-6u-a1I"/>
+                        <segue destination="sit-os-BcJ" kind="relationship" relationship="viewControllers" id="zvY-jL-tJQ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cmD-Y9-QO1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1873,6 +1874,84 @@
             </objects>
             <point key="canvasLocation" x="2928.8000000000002" y="-134.48275862068968"/>
         </scene>
+        <!--CircularSlider-->
+        <scene sceneID="4l0-dz-rKx">
+            <objects>
+                <viewController title="CircularSlider" id="sit-os-BcJ" customClass="CircularSliderViewController" customModule="JanuaryFirst" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5UR-N0-AfS"/>
+                        <viewControllerLayoutGuide type="bottom" id="lV0-kt-rRc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jb4-bC-1Qq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vmX-Yz-Zlw">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Sk-nP-Lu6" customClass="CircularSlider" customModule="CircularSlider">
+                                        <rect key="frame" x="67" y="98" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="달성률"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="radiansOffset">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                <color key="value" red="0.2920759389" green="0.6149692699" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="hideLabels" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="highlighted" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fractionDigits">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                <real key="value" value="100"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="divisa" value="%"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OX1-IJ-H9H">
+                                        <rect key="frame" x="124" y="400" width="127" height="59"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="저장">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="sendCircleValue:" destination="sit-os-BcJ" eventType="touchUpInside" id="dBk-Jw-k9k"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vmX-Yz-Zlw" firstAttribute="width" secondItem="jb4-bC-1Qq" secondAttribute="width" id="4uD-I2-Pgf"/>
+                            <constraint firstItem="vmX-Yz-Zlw" firstAttribute="centerY" secondItem="jb4-bC-1Qq" secondAttribute="centerY" constant="10" id="Nhu-Ci-NUk"/>
+                            <constraint firstItem="vmX-Yz-Zlw" firstAttribute="leading" secondItem="jb4-bC-1Qq" secondAttribute="leadingMargin" constant="-16" id="WuE-KP-q4q"/>
+                            <constraint firstItem="vmX-Yz-Zlw" firstAttribute="top" secondItem="5UR-N0-AfS" secondAttribute="bottom" id="jnY-tF-0cD"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="L47-6O-f9r"/>
+                    <connections>
+                        <outlet property="circularSlider" destination="6Sk-nP-Lu6" id="hdg-Bv-foY"/>
+                        <outlet property="scrollView" destination="vmX-Yz-Zlw" id="xxc-Yb-FqY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Me-ec-NXi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3612" y="-138.0809595202399"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="NMk-53-JzJ">
             <objects>
@@ -2694,7 +2773,7 @@
         <image name="체크" width="30" height="21"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="o1a-Qv-liJ"/>
+        <segue reference="s1x-VA-GA7"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>
