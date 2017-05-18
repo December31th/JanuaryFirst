@@ -14,7 +14,7 @@
 "topDescription"        = "목표 설정";
 "goal"                  = "목표";
 "colorSetting"          = "색 설정 :";
-"save"                  = "저장 :";
+"save"                  = "저장";
 "firstGoalPlaceHolder"  = "처음 목표 입력";
 "secondGoalPlaceHolder" = "두번째 목표 입력";
 "thirdGoalPlaceHolder"  = "세번째 목표 입력";

@@ -21,15 +21,15 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ta6-dH-WZd" customClass="JTAppleCalendarView" customModule="JTAppleCalendar">
-                                <rect key="frame" x="19" y="252.5" width="338" height="303"/>
+                                <rect key="frame" x="19" y="265" width="338" height="327"/>
                                 <color key="backgroundColor" red="0.15294117647058825" green="0.15686274509803921" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xdj-X9-AI0">
-                                <rect key="frame" x="311" y="521.5" width="36" height="29"/>
+                                <rect key="frame" x="311" y="558" width="36" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="oGm-p6-zfK"/>
                                     <constraint firstAttribute="width" constant="36" id="rYz-ER-TWD"/>
@@ -48,7 +48,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4mU-FR-QZ1">
-                                <rect key="frame" x="19" y="206.5" width="338" height="16"/>
+                                <rect key="frame" x="19" y="219" width="338" height="16"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlw-OE-77u">
                                         <rect key="frame" x="0.0" y="0.0" width="48.5" height="16"/>
@@ -116,7 +116,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aP7-vs-MDw">
-                                <rect key="frame" x="29" y="124" width="140" height="27.5"/>
+                                <rect key="frame" x="29" y="136.5" width="140" height="27.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="140" id="YSy-Yc-7Ii"/>
                                 </constraints>
@@ -132,7 +132,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmz-jp-C9c">
-                                <rect key="frame" x="29" y="75.5" width="140" height="35.5"/>
+                                <rect key="frame" x="29" y="88" width="140" height="35.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Label">
                                         <attributes>
@@ -1768,10 +1768,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTd-0g-gDE">
-                                                <rect key="frame" x="302.5" y="537" width="30" height="33"/>
+                                                <rect key="frame" x="290" y="537" width="42" height="33"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="33" id="mQX-Ju-yjy"/>
-                                                    <constraint firstAttribute="width" constant="30" id="mVk-tC-Cwu"/>
+                                                    <constraint firstAttribute="width" constant="42" id="mVk-tC-Cwu"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
                                                 <state key="normal" title="저장">
@@ -2694,7 +2694,7 @@
         <image name="체크" width="30" height="21"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="s1x-VA-GA7"/>
+        <segue reference="o1a-Qv-liJ"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

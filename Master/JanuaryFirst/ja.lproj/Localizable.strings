@@ -14,7 +14,7 @@
 "topDescription"        = "Goal Setting";
 "goal"                  = "Goal";
 "colorSetting"          = "Color :";
-"save"                  = "Save :";
+"save"                  = "Save";
 "firstGoalPlaceHolder"  = "First goal";
 "secondGoalPlaceHolder" = "Second goal";
 "thirdGoalPlaceHolder"  = "Third goal";

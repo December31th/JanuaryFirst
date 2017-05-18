@@ -24,7 +24,6 @@
 		DAE237411ECC90AD0026C6A3 /* NotiView.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAE2370D1ECC90AD0026C6A3 /* NotiView.strings */; };
 		DAE237431ECC90AD0026C6A3 /* FirstGoalSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE237111ECC90AD0026C6A3 /* FirstGoalSettingViewController.swift */; };
 		DAE237441ECC90AD0026C6A3 /* GoalSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE237121ECC90AD0026C6A3 /* GoalSettingViewController.swift */; };
-		DAE237451ECC90AD0026C6A3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAE237131ECC90AD0026C6A3 /* Info.plist */; };
 		DAE237461ECC90AD0026C6A3 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE237141ECC90AD0026C6A3 /* IntroViewController.swift */; };
 		DAE237471ECC90AD0026C6A3 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAE237191ECC90AD0026C6A3 /* LaunchScreen.strings */; };
 		DAE237481ECC90AD0026C6A3 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2371E1ECC90AD0026C6A3 /* LaunchScreenViewController.swift */; };
@@ -362,7 +361,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = LEOFALCON;
 				TargetAttributes = {
 					DA9B2B801E37369200981ED0 = {
@@ -428,7 +427,6 @@
 				DAE237351ECC90AD0026C6A3 /* Localizable.strings in Resources */,
 				DAE237321ECC90AD0026C6A3 /* Assets.xcassets in Resources */,
 				DAE2374E1ECC90AD0026C6A3 /* NotiView.xib in Resources */,
-				DAE237451ECC90AD0026C6A3 /* Info.plist in Resources */,
 				DAE237331ECC90AD0026C6A3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -651,7 +649,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -696,7 +694,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
