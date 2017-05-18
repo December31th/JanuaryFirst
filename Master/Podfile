@@ -1,0 +1,7 @@
+target 'test' do
+  use_frameworks!
+  pod 'JTAppleCalendar', '~> 6.0'
+  pod 'AKPickerView-Swift'
+  pod 'StatusBarNotificationCenter'
+  pod 'Charts'
+end
