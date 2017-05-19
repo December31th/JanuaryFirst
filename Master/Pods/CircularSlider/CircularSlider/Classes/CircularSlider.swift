@@ -88,6 +88,7 @@ open class CircularSlider: UIView {
             titleLabel.text = title
         }
     }
+    
     @IBInspectable
     open var radiansOffset: CGFloat = 0 {
         didSet {

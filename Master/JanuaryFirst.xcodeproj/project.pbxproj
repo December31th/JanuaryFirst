@@ -21,7 +21,6 @@
 		DAE237361ECC90AD0026C6A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE236FD1ECC90AD0026C6A3 /* Main.storyboard */; };
 		DAE237391ECC90AD0026C6A3 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE237021ECC90AD0026C6A3 /* CellView.swift */; };
 		DAE2373A1ECC90AD0026C6A3 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE237031ECC90AD0026C6A3 /* CellView.xib */; };
-		DAE2373B1ECC90AD0026C6A3 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE237041ECC90AD0026C6A3 /* ChartsViewController.swift */; };
 		DAE237401ECC90AD0026C6A3 /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE237091ECC90AD0026C6A3 /* DataCenter.swift */; };
 		DAE237411ECC90AD0026C6A3 /* NotiView.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAE2370D1ECC90AD0026C6A3 /* NotiView.strings */; };
 		DAE237431ECC90AD0026C6A3 /* FirstGoalSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE237111ECC90AD0026C6A3 /* FirstGoalSettingViewController.swift */; };
@@ -98,7 +97,6 @@
 		DAE236FE1ECC90AD0026C6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAE237021ECC90AD0026C6A3 /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		DAE237031ECC90AD0026C6A3 /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
-		DAE237041ECC90AD0026C6A3 /* ChartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
 		DAE237091ECC90AD0026C6A3 /* DataCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
 		DAE2370A1ECC90AD0026C6A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DAE2370B1ECC90AD0026C6A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -263,7 +261,6 @@
 				DAE237111ECC90AD0026C6A3 /* FirstGoalSettingViewController.swift */,
 				DAE237291ECC90AD0026C6A3 /* ViewController.swift */,
 				DAE237201ECC90AD0026C6A3 /* ListViewController.swift */,
-				DAE237041ECC90AD0026C6A3 /* ChartsViewController.swift */,
 				DAE237121ECC90AD0026C6A3 /* GoalSettingViewController.swift */,
 				DAE237221ECC90AD0026C6A3 /* ModalViewController.swift */,
 			);
@@ -515,7 +512,6 @@
 				DAE237621ECD667C0026C6A3 /* ChooseThemeViewController.swift in Sources */,
 				DAE237491ECC90AD0026C6A3 /* LightLibrary.swift in Sources */,
 				DAE237501ECC90AD0026C6A3 /* test.xcdatamodeld in Sources */,
-				DAE2373B1ECC90AD0026C6A3 /* ChartsViewController.swift in Sources */,
 				DAE237461ECC90AD0026C6A3 /* IntroViewController.swift in Sources */,
 				DAE2374C1ECC90AD0026C6A3 /* ModalViewController.swift in Sources */,
 				DAE237391ECC90AD0026C6A3 /* CellView.swift in Sources */,

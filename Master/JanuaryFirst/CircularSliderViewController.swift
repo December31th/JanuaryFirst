@@ -18,6 +18,7 @@ class CircularSliderViewController: UIViewController {
     // MARK: - outlets
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var circularSlider: CircularSlider!
+    @IBOutlet weak var myLabel: UILabel!
     
     // MARK: - view lifecycle
     override func viewDidLoad() {
@@ -29,13 +30,22 @@ class CircularSliderViewController: UIViewController {
         for index in dayArr.indices{
             dayArr.append(getMonArr[index].date)
         }
-        
+        circularSlider.hideLabels = true
+        myLabel.text = String(circularSlider.value)
+        var timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: Selector("update"), userInfo: nil, repeats: true)
+    }
+    
+    func update () {
+        DispatchQueue.main.async(execute: {
+            self.myLabel.text = String(Int(self.circularSlider.value)) + "%"
+        })
     }
     
     @IBAction func sendCircleValue(_ sender: Any) {
         dataCenter.days[0].dayArr[148].diary1.rate = Int(circularSlider.value)
         dataCenter.save()
     }
+    
     
     
     // MARK: - methods
@@ -75,7 +85,7 @@ class CircularSliderViewController: UIViewController {
         view.endEditing(true)
     }
     
-    
+    /*
     // MARK: - actions
     @IBAction func decrementAction(_ sender: UIButton) {
         circularSlider.setValue(circularSlider.value - 50, animated: true)
@@ -84,6 +94,7 @@ class CircularSliderViewController: UIViewController {
     @IBAction func incrementAction(_ sender: UIButton) {
         circularSlider.setValue(circularSlider.value + 50, animated: true)
     }
+    */
 }
 
 
